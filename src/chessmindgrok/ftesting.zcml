@@ -1,11 +1,11 @@
 <configure
    xmlns="http://namespaces.zope.org/zope"
-   i18n_domain="chessmindgrok"
-   package="chessmindgrok"
+   i18n_domain="chessmind.grok"
+   package="chessmind.grok"
    >
 
   <include package="grok" />
-  <include package="chessmindgrok" />
+  <include package="chessmind.grok" />
 
   <!-- Typical functional testing security setup -->
   <securityPolicy
