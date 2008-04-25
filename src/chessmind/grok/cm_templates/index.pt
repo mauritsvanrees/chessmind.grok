@@ -1,7 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css"
-          href="++resource++grokchess/cm.css" />
+          href="++resource++chessmind.grok/cm.css" />
   </head>
   <body>
     <h1>Me Grok play chess!</h1>

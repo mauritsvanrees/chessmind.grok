@@ -46,7 +46,7 @@ def parseSquare(square, rowindex, colindex, selectedSquare):
         src = ''
     else:
         piecename = square.name.lower()
-        src = '++resource++grokchess/' + piecename + '-' + colour + '.png'
+        src = '++resource++chessmind.grok/' + piecename + '-' + colour + '.png'
     # Set the background colour of the square
     if positionColour(rowindex, colindex) == WHITE:
         backcolour = 'white'
@@ -162,7 +162,7 @@ class Index(grok.View):
         piecesigns = promotionmap.keys()
         for sign in piecesigns:
             piecename = promotionmap.get(sign)
-            src = '++resource++grokchess/' + piecename + '-' + colour + '.png'
+            src = '++resource++chessmind.grok/' + piecename + '-' + colour + '.png'
             if colour == 'black':
                 sign = sign.lower()
             pieces.append(square_dict(src=src, value=sign))
