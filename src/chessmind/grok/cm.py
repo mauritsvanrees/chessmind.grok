@@ -1,12 +1,12 @@
 import grok
-from chessmind.game import ChessGame
-from chessmind.definitions import WHITE, BLACK
-from chessmind.position import ChessException, PromotionException
-from chessmind.position import positionColour, squarify
-from chessmind.piece import promotionmap
+from chessmind.core.game import ChessGame
+from chessmind.core.definitions import WHITE, BLACK
+from chessmind.core.position import ChessException, PromotionException
+from chessmind.core.position import positionColour, squarify
+from chessmind.core.piece import promotionmap
 
 
-class ChessMinder(grok.Application, grok.Model):
+class Chessminder(grok.Application, grok.Model):
     def __init__(self):
         self.reset()
 

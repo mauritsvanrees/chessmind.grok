@@ -15,11 +15,10 @@ user interface.
 ChessMind
 ---------
 
-ChessMind is a program that I am making for school.  The chess program
-itself is in the chessmind directory.  It should not depend on Grok at
-all.  You can go to that directory and run the tests by executing
-./__init__.py.  If that does not return any text, all tests pass.  Me
-Grok good programmer!
+The chess program itself is in the chessmind.core package.  It should
+not depend on Grok at all.  You can go to that package and run the
+tests by executing ./__init__.py.  If that does not return any text,
+all tests pass.  Me Grok good programmer!
 
 
 Welcome to Grok's Chess Club!
