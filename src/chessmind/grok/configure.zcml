@@ -1,0 +1,7 @@
+<configure
+    xmlns:i18n="http://namespaces.zope.org/18n"
+    i18n_domain="grokchess">
+
+<grok package="." xmlns="http://namespaces.zope.org/grok" />
+
+</configure>
