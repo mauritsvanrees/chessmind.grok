@@ -20,6 +20,7 @@ setup(name='chessmind.grok',
       zip_safe=False,
       install_requires=['setuptools',
                         'grok',
+                        'chessmind.core',
                         # Add extra requirements here
                         ],
       entry_points="""
